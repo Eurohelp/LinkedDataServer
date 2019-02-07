@@ -6,14 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Mi hoja estilos -->
 <link href="<%=request.getContextPath()%>/css/style.css" rel="stylesheet"></link>
-<link href='http://cdn.jsdelivr.net/yasqe/2.11.10/yasqe.min.css'
+<link href='https://cdn.jsdelivr.net/yasqe/2.11.10/yasqe.min.css'
 	rel='stylesheet' type='text/css'></link>
-<link href='http://cdn.jsdelivr.net/yasr/2.10.8/yasr.min.css'
+<link href='https://cdn.jsdelivr.net/yasr/2.10.8/yasr.min.css'
 	rel='stylesheet' type='text/css'></link>
 <title>Open Data Euskadi, el portal de datos abiertos del
 	Gobierno Vasco</title>
 	<!-- JQuery -->
-				<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+				<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 				<link rel="stylesheet"
 					href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 					integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -31,7 +31,7 @@
 <body>
 	<header class="header">
 		<div class="elementos-navbar">
-			<img alt="Logo ayuntamiento San Sebastián"
+			<img alt="Logo ayuntamiento San SebastiÃ¡n"
 				src="<%=request.getContextPath()%>/img/logo-vector-ayuntamiento-de-san-sebastian.jpg" width="175"
 				height="80"></img>
 		</div>
@@ -43,9 +43,9 @@
 	<div id="yasr"></div>
 	<div class="space"></div>
 	<script
-		src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src='http://cdn.jsdelivr.net/yasqe/2.2/yasqe.bundled.min.js'></script>
-	<script src='http://cdn.jsdelivr.net/yasr/2.4/yasr.bundled.min.js'></script>
+		src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src='https://cdn.jsdelivr.net/yasqe/2.2/yasqe.bundled.min.js'></script>
+	<script src='https://cdn.jsdelivr.net/yasr/2.4/yasr.bundled.min.js'></script>
 	<script type="text/javascript">
 		$.ajaxSetup({
 			type : "POST",
